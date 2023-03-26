@@ -1,0 +1,47 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.app-box {
+  height: 100%;
+  width: 80%;
+  margin: 5px;
+  background-color: yellow;
+  border: 2px solid blue;
+}
+
+.input-block {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  line-height: 32px;
+  width: 150px;
+}
+
+button {
+  height: 38px;
+  margin-left: 5px;
+}
+
+textarea {
+  width: 98%;
+  height: 75%;
+}
